@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.Chat {
+  height: 300px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.MyMessage {
+  background-color: #e6e6e6;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.OtherMessage {
+  background-color: #f2f2f2;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.InputContainer {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
